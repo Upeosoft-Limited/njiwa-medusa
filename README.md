@@ -15,8 +15,8 @@ npm install github:Upeosoft-Limited/njiwa-medusa
 
 It is not on the npm registry. The name `njiwa-medusa` there belongs to nobody,
 so asking npm for it by name would either fail or, one day, install a stranger's
-package into your Medusa server. Install it from the repository, which is
-private: the machine running npm needs an SSH key or a token that can read it.
+package into your Medusa server. Install it from the repository instead, which
+is public and needs no token.
 
 npm builds it for you on the way in - the `prepare` script runs `medusa
 plugin:build`, which is what puts the files the plugin actually loads under
