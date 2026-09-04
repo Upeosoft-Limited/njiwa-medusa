@@ -1,0 +1,8 @@
+node_modules/
+.medusa/
+dist/
+*.tgz
+.env
+
+# Written into src/admin by Medusa's admin bundler while a build runs.
+src/admin/__admin-extensions__.js
